@@ -1,0 +1,83 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Listas de algumas cidades do estado da Paraíba ordenadas e não ordenadas </title>
+<link href="meucss.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<h2>Cidades do Brejo</h2>
+<ul>
+	<li>Guarabira</li>
+	<li>Alagoa Grande</li>
+	<li>Alagoa Nova</li>
+	<li>Matinhas</li>
+</ul>
+
+<h2>Cidades do Litoral</h2>
+<ol>
+	<li>Baía da Traição</li>
+	<li>João Pessoa</li>
+	<li>Costinha</li>
+	<li>Cabedelo</li>
+</ol>
+
+<h2>Tabela de Marés de cada Municipio do litoral citado acima</h2>
+<table table style="border:1px solid black;">
+    <thead>
+        <tr>
+            <th class = "titulo">Cidade</th>
+            <th class = "titulo"> Nível do Mar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Baía da Traição</td>
+            <td>2.4</td>
+        </tr>
+        <tr>
+            <td>João Pessoa</td>
+            <td>2.1</td>
+        </tr>
+		<tr>
+            <td>Costinha</td>
+            <td>1.7</td>
+        </tr>
+		<tr>
+            <td>Cabedelo</td>
+            <td>2.9</td>
+        </tr>
+    
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2" class="corVermelhaCaracter">Maré>2.0 != Banho</td>
+          </tr>
+    </tfoot>
+</table>
+
+<h2>Checagem de turismo !</h2>
+
+<fieldset>
+    <legend> Você já visitou algum desses pontos turisticos ? Se sim, marque ! </legend>
+    <div>
+      <input type = "checkbox" id = "identificacao1" name = "nome1" value = "valor1">
+      <label for = "local1"> Pedra da Boca </label>
+    </div>
+    <div>
+        <input type = "checkbox" id = "identificacao2" name = "nome2" value = "valor2">
+        <label for = "local2"> Piscinas Naturais do Seixas </label>
+      </div>
+      <div>
+        <input type = "checkbox" id = "identificacao3" name = "nome3" value = "valor3">
+        <label for = "local3"> Parque do Povo </label>
+      </div>
+  </fieldset>
+
+
+</body>
+</html>
