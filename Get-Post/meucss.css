@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo{
+    background-color: black;
+}
+
+.titulo{
+    color: azure;
+}
+
+
+.dov{
+
+    display: flex;
+    justify-content: center;
+}
+
+#dov{
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.centralizar{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.centralizar2{
+    width: 30%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
